@@ -117,11 +117,11 @@ function App() {
 
             <div className="project-buttons">
               <a
-                href="https://github.com/mdmoazzam7"
+                href="https://github.com/mdmoazzam7/AgriSense"
                 target="_blank"
                 rel="noreferrer"
               >
-                GitHub Profile
+                GitHub
               </a>
             </div>
           </div>
