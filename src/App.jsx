@@ -1,8 +1,10 @@
 function App() {
   return (
     <>
+      {/* Navbar */}
       <nav>
         <h2>Md Moazzam</h2>
+
         <div>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
@@ -11,28 +13,42 @@ function App() {
         </div>
       </nav>
 
+      {/* Hero Section */}
       <section className="hero">
         <img
           src="/profile.jpg"
           alt="Md Moazzam"
           className="profile-photo"
         />
+
         <p className="availability">
           🟢 Open to opportunities
         </p>
+
         <h1>Hi, I'm Md Moazzam 👋</h1>
-        <h2>B.Tech CSE Student | Aspiring Full Stack Developer</h2>
+
+        <h2>
+          B.Tech CSE Student | Aspiring Full Stack Developer
+        </h2>
+
         <p>
           I build web applications and practice Data Structures &
           Algorithms in Java.
         </p>
-        <button onClick={() => {
-          document.getElementById("projects").scrollIntoView();
-        }}>
+
+        <button
+          type="button"
+          onClick={() => {
+            document.getElementById("projects").scrollIntoView({
+              behavior: "smooth",
+            });
+          }}
+        >
           View My Projects
         </button>
       </section>
 
+      {/* About Section */}
       <section id="about" className="about">
         <h2>About Me</h2>
 
@@ -61,6 +77,7 @@ function App() {
         </div>
       </section>
 
+      {/* Skills Section */}
       <section id="skills" className="skills">
         <h2>Skills</h2>
 
@@ -79,11 +96,13 @@ function App() {
         </div>
       </section>
 
+      {/* Projects Section */}
       <section id="projects" className="projects">
         <h2>Projects</h2>
 
         <div className="project-list">
 
+          {/* AgriSense */}
           <div className="project-card">
             <h3>🌱 AgriSense</h3>
 
@@ -97,11 +116,17 @@ function App() {
             </p>
 
             <div className="project-buttons">
-              <a href="https://github.com/mdmoazzam7" target="_blank" rel="noreferrer">GitHub</a>
-              <a href="https://moazzam-portfolio-nine.vercel.app" target="_blank" rel="noreferrer">Live Demo</a>
+              <a
+                href="https://github.com/mdmoazzam7"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub Profile
+              </a>
             </div>
           </div>
 
+          {/* DSA */}
           <div className="project-card">
             <h3>💻 DSA in Java</h3>
 
@@ -128,6 +153,7 @@ function App() {
         </div>
       </section>
 
+      {/* Contact Section */}
       <section id="contact" className="contact">
         <h2>Let's Connect</h2>
 
@@ -159,11 +185,10 @@ function App() {
         </div>
       </section>
 
+      {/* Footer */}
       <footer>
-  <p>
-    © 2026 Md Moazzam. Built with React.
-  </p>
-</footer>
+        <p>© 2026 Md Moazzam. Built with React.</p>
+      </footer>
     </>
   );
 }
