@@ -97,10 +97,8 @@ function App() {
             </p>
 
             <div className="project-buttons">
-              <a href="#" target="_blank">
-                GitHub
-              </a>
-              <a href="#" target="_blank">Live Demo</a>
+              <a href="https://github.com/mdmoazzam7" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://moazzam-portfolio-nine.vercel.app" target="_blank" rel="noreferrer">Live Demo</a>
             </div>
           </div>
 
