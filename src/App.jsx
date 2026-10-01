@@ -128,8 +128,9 @@ function App() {
                 Maulana Abul Kalam Azad University of Technology, West Bengal
               </p>
               <p>
-                Core coursework in data structures, algorithms, databases and
-                object-oriented programming.
+                Strong grounding in data structures, algorithms, DBMS and
+                object-oriented programming, which I put to use building
+                full stack web apps with MongoDB, Express, React and Node.js.
               </p>
             </div>
           </div>
