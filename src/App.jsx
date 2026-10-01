@@ -1,3 +1,4 @@
+import Particles from "./Particles.jsx";
 import { useEffect, useState } from "react";
 
 const NAV = [
@@ -62,6 +63,7 @@ function App() {
 
   return (
     <div className="layout">
+      <Particles />
       <header className="side">
         <div>
           <img className="photo" src="/profile.jpg" alt="Md Moazzam" />
