@@ -91,6 +91,9 @@ b { color: var(--white); font-weight: 500; }
 }
 a.item:hover { background: rgba(17, 34, 64, 0.75); }
 a.item:hover h4 { color: var(--accent); }
+section > h3 + .item {
+  margin-top: -16px;
+}
 .when {
   font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em;
   text-transform: uppercase; padding-top: 4px;
